@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+table{
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#inventarioid table{
+    display: grid;
+    border-color: black;
+    border-style: solid;
+    margin-top: 5ch;
+
+}
+#inventarioid table td{
+    border-style: solid;
+    height: 20ch;
+    width: 50ch;
+}
+#texthead{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    display: inline-block;
+}
+h3{
+    margin-left: 2ch;
+}
+#marcas{
+    display: flex;
+    display: inline-block;
+}
+#iconpierre{
+    width: 20ch;
+    height: 20ch;
+    display: flex;
+    display: inline-block;
+}
+#texthead22{
+    margin-left: 200px;
+    margin-top: -200px;
+    margin-bottom: 30px;
+}
+#inventarioid ul li{
+    text-align: center;
+}
+#menu{
+    float: right;
+    margin-top: -20ch;
+}
+
+#limenu{
+    display: inline;
+    margin-right: 20px;
+}
+@media screen and (max-width:1000px) {
+    table{
+        width: 1000px;
+        height: 100%;
+
+    }
+    
+}

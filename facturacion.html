@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventas Facturación</title>
+    <link rel="stylesheet" href="CSS/facturacion.css">
+    <link rel="icon" href="Media/pierreIconTransp.png">
+</head>
+<body>
+    <div class="form">
+      <h4>Datos generales</h4>
+
+      <div class="inputs">
+            <div id="line1">
+                <nav id="nav1">
+                    <ul id="ul1">
+                        <li class="li1">cliente</li>
+                        <li class="li1">creación</li>
+                        <li class="li1">Plazo de pago</li>
+                    </ul>
+                </nav>
+
+                <div id="lineinputs1">
+                    <select id="cliente">
+                        <option value="Filipondio">Filipondio</option>
+                        <option value="Filipa">Filipa</option>
+                        <option value="Florito">Florito</option>
+                        <option value="Ruperino">Ruperino</option>
+                    </select>
+                    <input  type="date" id="creacion">
+                    <select  id="plazoPago">
+                        <option value="De contado">De contando</option>
+                        <option value="Cuotas">Cuotas</option>
+                        <option value="Adelantado">Adelantado</option>
+                    </select>
+    
+
+                </div>
+
+            </div>
+             <br>
+            <div id="line2">
+                <nav id="nav2">
+                    <ul>
+                        <li>Identificación</li>
+                        <li>Vencimiento</li>
+                        <li>Medio de pago</li>
+                    </ul>
+                </nav>
+
+                <div id="lineinputs2">
+                    <input  type="number" id="identificacion"> 
+                    <input  type="date" id="Vencimiento">
+                    <select  name="medio" id="medioPago">
+                        <option value="Tarjeta">Tarjeta</option>
+                        <option value="Efectivo">Efectivo</option>
+                        <option value="Sinpe Movil">Sinpe Movil</option>
+                   </select>
+
+                </div>
+           </div>
+        </div>
+        <h4>Ítems de venta</h4>
+
+        <select name="item" id="item">
+            <option value="">Selecciona un producto</option>
+            <option value="Galletas">Galletas</option>
+            <option value="Cereal">Cereal</option>
+            <option value="Arroz">Arroz</option>
+        </select>
+
+        <input id="precio" type="number" placeholder="precio">
+        <select name="" id="descuento" >
+            <option value="">Selecciona un descuento</option>
+            <option value="0.05">5%</option>
+            <option value="0.010">10%</option>
+            <option value="0.020">20%</option>
+        </select>
+        <select name="impuesto" id="impuesto">
+            <option value="">Impuesto</option>
+            <option value="0.013">si</option>
+            <option value="0">No</option>
+            <label for="impuesto">Impuesto</label>
+        </select>
+        <input id="cantidad" type="number" placeholder="cantidad">
+        <input type="text" readonly placeholder="Total">
+        <button id="btntotal">Realizar Factura</button>
+        <br>
+        <!--FACTURA-->
+        <h2>Factura pierres:</h2>
+        <label for=""> emitida a:
+            <div id="clientediv"></div>
+    
+        </label>
+
+        <label for="">Fecha:
+            <div id="creaciondiv"></div>
+    
+        </label>
+        <label for="">Plazo de pago:
+            <div id="plazodiv"></div>
+    
+        </label>
+        <label for="">Identificación:
+            <div id="identdiv"></div>
+    
+        </label>
+        <label for="">Medio de pago:
+            <div id="mediodiv"></div>
+    
+        </label>
+        <label for="">Vencimiento:
+            <div id="vencediv"></div>
+    
+        </label>
+
+        <label for="">Precio:
+
+           <div id="divprecio"></div>
+        </label> 
+        <br>
+        <label for="">Descuento:
+            <div id="divdescuento"></div>
+           
+           
+        </label>
+        <label for="">Impuesto:
+           
+            <div id="div2precio"></div>
+
+           
+        </label>
+        <label for="">Cantidad:
+            
+            <div id="divcantidad"></div>
+           
+        </label>
+        <label for="">producto:
+            <div id="divitem"></div>
+           
+        </label>
+       <label for="">Total a pagar:
+          <div id="sumatoria"></div>
+
+       </label>
+
+       
+        
+
+
+
+
+
+    
+      
+
+     </div>
+</body>
+<script src="JS/factu.js"></script>
+</html>

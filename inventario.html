@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Abarrotes Pierre's</title>
+    <link rel="icon" href="Media/pierreIconTransp.png">
+</head>
+<header>
+    <div id="texthead">
+        <img src="Media/Pierre icon.png" id="iconpierre">
+       
+        <p>Módulo de inventarios</p>
+    </div>
+    <div id="texthead22">
+        <h1>Abarrotes</h1>
+        <h3>  Pierre's</h3>
+    </div>
+
+    <div id="menu">
+        <ul id="menuUl">
+            <li id="limenu"><a href="index.html">Inventario</a></li>
+            <li id="limenu"><a href="facturacion.html">Ventas</a></li>
+            <li id="limenu"><a href="">Reportes</a></li>
+            <li id="limenu"><a href="acercami.html">A cerca de mí</a></li>
+        </ul>
+    </div>
+</header>
+<body>
+    <input id="codigoinp" type="text" placeholder="Código">
+    <input id="descripcioninp" type="text" placeholder="Descripcion"> 
+    <form id="marcas">
+        <label for="marca">Marca</label>
+
+        <select name="marca" id="marca">
+            <option value="Bimbo">Bimbo</option>
+            <option value="Pozuelo">Pozuelo</option>
+            <option value="Suli">Suli</option>
+            <option value="Dos pinos">Dos pinos</option>
+            <option value="Matel">Mate</option>
+            <option value="Lala">Lala</option>
+            <option value="marinela">marinela</option>
+            <option value="kellogs">kellogs</option>
+        </select>
+    </form>
+    <input id="costoinp" type="text" placeholder="Costo">
+    <input id="impuestoinp" type="checkbox" placeholder="Impuesto">
+    <label for="impuesto">impuesto</label>
+    <button id="agregar">agregar</button>
+
+    <section>
+        <form id="inventarioid">
+            <table>
+                <tr>
+                        <td><ul><li>Código</li></ul></td>
+                        <td><ul><li>Prescripción</li></ul></td>
+                        <td><ul><li>Marca</li></ul></td>
+                        <td><ul><li>Costo</li></ul></td>
+                        <td><ul><li>Impuesto</li></ul></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="t1" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="t2" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="t3" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="t4" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="t5" style="display: none;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="e1" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="e2" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="e3" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="e4" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="e5" style="display: none;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="x1" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="x2" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="x3" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="x4" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="x5" style="display: none;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="s1" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="s2" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="s3" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="s4" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="s5" style="display: none;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="y1" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="y2" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="y3" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="y4" style="display: none;"></div>
+                    </td>
+                    <td>
+                        <div id="y5" style="display: none;"></div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        
+    </section>
+
+</body>
+<script src="JS/index.js"></script>
+</html>

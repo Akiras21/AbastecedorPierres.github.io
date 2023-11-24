@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#iconoimg{
+    margin-left: 5%;
+    width: 300px;
+    height: 250px;
+    margin-top: 8%;
+}
+.textdiv{
+    position: absolute;
+    width: 60ch;
+    margin-left: 28%;
+    margin-top: -24ch;
+    text-align: left;
+}
+
+footer{
+    margin-top: 50%;
+}
+.tarjeta{
+    margin-top: 120px;
+    background-color: #DADADA;
+    width: 70%;
+    height: 400px;
+    margin-left: 15%;
+    border-radius: 20px;
+    
+}
